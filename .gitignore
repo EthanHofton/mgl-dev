@@ -1,0 +1,7 @@
+.vscode/
+bin/
+logs/
+imgui.ini
+*.o
+src/*.o
+src/**/*.o
