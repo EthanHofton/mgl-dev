@@ -2,10 +2,12 @@
     "width" : 1200,
     "height" : 600,
     "fps" : 120,
+
     "z_near_ortho" : -3000,
     "z_far_ortho" : 3000,
     "z_near_perspective" : 0.1,
     "z_far_perspective" : 300,
-    "max_num_vertices" : 900000,
-    "max_num_indices" : 10000000
+
+    "renderer_vertice_base_size_bytes" : 1000,
+    "renderer_indice_base_size_bytes" : 1000
 }

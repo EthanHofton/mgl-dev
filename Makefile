@@ -34,10 +34,10 @@ libs:
 	cd lib/mgl && make
 
 $(PROGRAM): $(OBJ)
-	$(CC) -o $(BIN)/$(PROGRAM) $^ $(LDFLAGS)
+	$(CC) -g -o $(BIN)/$(PROGRAM) $^ $(LDFLAGS)
 
 %.o: %.cpp
-	$(CC) -o $@ -c $< $(CXXFLAGS)
+	$(CC) -g -o $@ -c $< $(CXXFLAGS)
 
 clean:
 	rm -rf $(BIN) $(OBJ)
