@@ -1,10 +1,11 @@
 {
-    "width" : 1200,
-    "height" : 600,
+    "width" : 1600,
+    "height" : 800,
     "fps" : 120,
 
-    "z_near_ortho" : -3000,
-    "z_far_ortho" : 3000,
+    "fov" : 45,
+    "z_near_ortho" : 3000,
+    "z_far_ortho" :  -3000,
     "z_near_perspective" : 0.1,
     "z_far_perspective" : 300,
 

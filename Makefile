@@ -7,6 +7,7 @@ CXXFLAGS = -Wall -std=c++17 -stdlib=libc++
 CXXFLAGS += -Ilib/mgl/include/
 
 # macros
+# platform macro should be auto determined
 CXXFLAGS += -DMGL_PLATFORM_OSX
 CXXFLAGS += -DMGL_ENABLE_ASSERTS
 
