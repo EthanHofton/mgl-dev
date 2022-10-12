@@ -198,7 +198,7 @@ namespace mgl
             ImGui::LabelText("UUID", "%s", m_xwing2.getComponent<UUID>().getUUID().c_str());
             if (ImGui::Button("Regen UUID"))
             {
-                m_xwing.getComponent<UUID>().regenerate();
+                m_xwing2.getComponent<UUID>().regenerate();
             }
 
             ImGui::Separator();
